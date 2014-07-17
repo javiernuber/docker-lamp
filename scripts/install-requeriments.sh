@@ -7,7 +7,7 @@
 apt-get update
 echo "mysql-server mysql-server/root_password password 1234" | debconf-set-selections
 echo "mysql-server mysql-server/root_password_again password 1234" | debconf-set-selections
-apt-get -y --force-yes install mysql-server-5.5 php5-mysql libsqlite3-dev apache2 php5 php5-dev build-essential php-pear
+apt-get -y --force-yes install supervisor mysql-server-5.5 php5-mysql libsqlite3-dev apache2 php5 php5-dev build-essential php-pear
 
 # -----------
 # Install Vim
