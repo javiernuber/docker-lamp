@@ -33,6 +33,7 @@ RUN /home/scripts/config-php.sh
 # -----
 # Ports
 # -----
+EXPOSE 22
 EXPOSE 80
 
 CMD ["/home/scripts/boot.sh"]
