@@ -1,2 +1,4 @@
 #!/bin/bash
-exec supervisord -n
+service mysql start
+service apache2 start
+service ssh start
