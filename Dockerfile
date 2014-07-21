@@ -30,7 +30,6 @@ ADD etc/supervisor/conf.d/supervisord.conf /etc/supervisor/conf.d/supervisord.co
 RUN /home/scripts/config-apache.sh
 RUN /home/scripts/config-php.sh
 
-# NOTE: change this key to your own
 RUN mkdir /root/.ssh
 RUN mkdir /var/run/sshd
 # NOTE: change this key to your own
